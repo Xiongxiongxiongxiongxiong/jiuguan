@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 863cd3c50822c564da75ea63b9a007c4
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _WaveNormalMap: {fileID: 2800000, guid: fab6b5b579fb24c1aa6ddc2fa68e4333, type: 3}
+  - _CausticTexture: {fileID: 2800000, guid: 581fcfd543a4445829bb923bace720da, type: 3}
+  - _FoamMap: {fileID: 2800000, guid: 41ea33a7d3c9049338a01c1b14bf9d19, type: 3}
+  - _EdgeFoamTex: {fileID: 2800000, guid: b02e76a040a592e49904f824c63c53d3, type: 3}
+  - _Cubemap: {instanceID: 0}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

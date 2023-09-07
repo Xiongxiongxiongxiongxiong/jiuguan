@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: mt_grass_01_d 1
+  m_Shader: {fileID: 4800000, guid: 4bb7d548f348af94480546faeed6a489, type: 3}
+  m_ShaderKeywords: EFFECT_BUMP GEOM_TYPE_FROND _ALPHAPREMULTIPLY_ON _DEPTHWRITE_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: a0dcf8a1627ddcd47b7d508b1c937b71, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissiveTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MRA:
+        m_Texture: {fileID: 2800000, guid: 557479f6f11208b48bc96ba6482e019f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MSA1:
+        m_Texture: {fileID: 2800000, guid: 557479f6f11208b48bc96ba6482e019f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: a0dcf8a1627ddcd47b7d508b1c937b71, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 758a376d563931444a5d1e6caac60e13, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 758a376d563931444a5d1e6caac60e13, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ThicknessMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WindNoise:
+        m_Texture: {fileID: 2800000, guid: 14d87153318e507458def57429bccd8c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AO: 1
+    - _BasePassPower: 1
+    - _BasePassScale: 2
+    - _CullMode: 0
+    - _Cutoff: 0.156
+    - _Cutout: 0.5
+    - _DepthOffset: 0
+    - _DepthTest: 4
+    - _DepthWrite: 1
+    - _Dst: 0
+    - _Metallic: 0
+    - _NoiseScale: 0.1
+    - _NormalScale: 1
+    - _Roughness: 1.5
+    - _Smoothness: 0
+    - _Src: 1
+    - __dirty: 0
+    m_Colors:
+    - _Color: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissiveColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Flex: {r: 0.05, g: 0, b: 0, a: 0}
+    - _Frequency: {r: 0, g: 0, b: 0, a: 0}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 1}
+    - _NoiseAmount: {r: 0.01, g: 0.05, b: 0.08, a: 0}
+    - _SatterColor: {r: 0.2494215, g: 0.5566038, b: 0.34769756, a: 1}
+    - _Scale: {r: 2, g: 5, b: 0, a: 0}
+    - _WindParams: {r: 0.3, g: 0, b: 1, a: 0.5}

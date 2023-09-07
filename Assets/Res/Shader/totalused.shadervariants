@@ -1,0 +1,1118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: totalused
+  m_Shaders:
+  - first: {fileID: 4800000, guid: 16f2e2105f990ae47bc7f7d7e74208c6, type: 3}
+    second:
+      variants:
+      - keywords: _RENDERMODE_OPAQUE
+        passType: 4
+      - keywords: INSTANCING_ON _RENDERMODE_OPAQUE
+        passType: 4
+      - keywords: _RENDERMODE_CUTOUT
+        passType: 4
+      - keywords: INSTANCING_ON _RENDERMODE_CUTOUT
+        passType: 4
+  - first: {fileID: 4800000, guid: ef37e360fb2acb343955eee0e8832613, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: f0fde1b0b7ace3f418a3d44493ad64ca, type: 3}
+    second:
+      variants:
+      - keywords: _NOISEFOG_ON
+        passType: 0
+  - first: {fileID: 4800000, guid: db3660e03cad2bb428e21c12ad576e74, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: _ALPHATEST_ON
+        passType: 0
+      - keywords: DIRECTIONAL _CUBEMAP _NORMALMAP _PBRCONTROLMAP
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _CUBEMAP _NORMALMAP _PBRCONTROLMAP
+        passType: 4
+      - keywords: DIRECTIONAL _ALPHATEST_ON _CUBEMAP _NORMALMAP _PBRCONTROLMAP
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _ALPHATEST_ON _CUBEMAP _NORMALMAP _PBRCONTROLMAP
+        passType: 4
+      - keywords: DIRECTIONAL _CUBEMAP _ENABLECUSTOMLIGHTDIR_ON _NORMALMAP _PBRCONTROLMAP
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _CUBEMAP _ENABLECUSTOMLIGHTDIR_ON _NORMALMAP
+          _PBRCONTROLMAP
+        passType: 4
+      - keywords: DIRECTIONAL _ALPHATEST_ON _CUBEMAP _ENABLECUSTOMLIGHTDIR_ON _NORMALMAP
+          _PBRCONTROLMAP
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _ALPHATEST_ON _CUBEMAP _ENABLECUSTOMLIGHTDIR_ON
+          _NORMALMAP _PBRCONTROLMAP
+        passType: 4
+      - keywords: DIRECTIONAL _CUBEMAP _NORMALMAP _PBRCONTROLMAP _STRENGTHENRIMLIGHT_ON
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _CUBEMAP _NORMALMAP _PBRCONTROLMAP _STRENGTHENRIMLIGHT_ON
+        passType: 4
+      - keywords: DIRECTIONAL _ALPHATEST_ON _CUBEMAP _NORMALMAP _PBRCONTROLMAP _STRENGTHENRIMLIGHT_ON
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _ALPHATEST_ON _CUBEMAP _NORMALMAP _PBRCONTROLMAP
+          _STRENGTHENRIMLIGHT_ON
+        passType: 4
+      - keywords: DIRECTIONAL _CUBEMAP _ENABLECUSTOMLIGHTDIR_ON _NORMALMAP _PBRCONTROLMAP
+          _STRENGTHENRIMLIGHT_ON
+        passType: 4
+      - keywords: DIRECTIONAL _ALPHATEST_ON _CUBEMAP _ENABLECUSTOMLIGHTDIR_ON _NORMALMAP
+          _PBRCONTROLMAP _STRENGTHENRIMLIGHT_ON
+        passType: 4
+      - keywords: 
+        passType: 8
+      - keywords: _ALPHATEST_ON
+        passType: 8
+      - keywords: _RENDERING_DEPTH_TEXTURE
+        passType: 8
+      - keywords: _ALPHATEST_ON _RENDERING_DEPTH_TEXTURE
+        passType: 8
+  - first: {fileID: 4800000, guid: fdb4b111d2227dc4087941ecf3e5b511, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: _DISTANTVIEWTOGGLE_ON
+        passType: 0
+  - first: {fileID: 4800000, guid: 40864541aa77a2b41b9e430e78c172a6, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: _WAVEEFFECT_ON
+        passType: 0
+      - keywords: 
+        passType: 4
+      - keywords: _WAVEEFFECT_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: dc48b841f9a5a224bbcc8c739e539a12, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL _V_T2M_SPLAT1_NORMAL_ON _V_T2M_SPLAT2_NORMAL_ON _V_T2M_SPLAT3_NORMAL_ON
+          _V_T2M_SPLAT4_NORMAL_ON
+        passType: 4
+      - keywords: DIRECTIONAL _SHADOW_SOFT_2X2 _V_T2M_SPLAT1_NORMAL_ON _V_T2M_SPLAT2_NORMAL_ON
+          _V_T2M_SPLAT3_NORMAL_ON _V_T2M_SPLAT4_NORMAL_ON
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _SHADOW_SOFT_2X2 _V_T2M_SPLAT1_NORMAL_ON
+          _V_T2M_SPLAT2_NORMAL_ON _V_T2M_SPLAT3_NORMAL_ON _V_T2M_SPLAT4_NORMAL_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON _SHADOW_SOFT_2X2 _V_T2M_SPLAT1_NORMAL_ON
+          _V_T2M_SPLAT2_NORMAL_ON _V_T2M_SPLAT3_NORMAL_ON _V_T2M_SPLAT4_NORMAL_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON SHADOWS_SCREEN _SHADOW_SOFT_2X2 _V_T2M_SPLAT1_NORMAL_ON
+          _V_T2M_SPLAT2_NORMAL_ON _V_T2M_SPLAT3_NORMAL_ON _V_T2M_SPLAT4_NORMAL_ON
+        passType: 4
+      - keywords: POINT _V_T2M_SPLAT1_NORMAL_ON _V_T2M_SPLAT2_NORMAL_ON _V_T2M_SPLAT3_NORMAL_ON
+          _V_T2M_SPLAT4_NORMAL_ON
+        passType: 5
+      - keywords: 
+        passType: 8
+  - first: {fileID: 4800000, guid: 76dc27611e4aa1a42954410b072190c5, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL _ALPHATEST_ON _CUBEMAP _NORMALMAP _PBRCONTROLMAP
+        passType: 4
+      - keywords: 
+        passType: 8
+  - first: {fileID: 4800000, guid: 7bd040c1259628a47b1fedac1ff8964a, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: _FORPROJECTOR_ON
+        passType: 0
+  - first: {fileID: 4800000, guid: 4e76d4023d7e0411297c670f878973e2, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 71f9611214af5074b8552e9268277fe0, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 1
+  - first: {fileID: 4800000, guid: 00079b5236ed8284bb2aad7f03cf897e, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 0fede47263c421749888541f8b190d00, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL _V_T2M_ADDPASSSPLAT1_NORMAL_ON _V_T2M_ADDPASSSPLAT2_NORMAL_ON
+          _V_T2M_ADDPASSSPLAT3_NORMAL_ON
+        passType: 4
+      - keywords: DIRECTIONAL _SHADOW_SOFT_2X2 _V_T2M_ADDPASSSPLAT1_NORMAL_ON _V_T2M_ADDPASSSPLAT2_NORMAL_ON
+          _V_T2M_ADDPASSSPLAT3_NORMAL_ON
+        passType: 4
+      - keywords: POINT _V_T2M_ADDPASSSPLAT1_NORMAL_ON _V_T2M_ADDPASSSPLAT2_NORMAL_ON
+          _V_T2M_ADDPASSSPLAT3_NORMAL_ON
+        passType: 5
+  - first: {fileID: 4800000, guid: 2d85878236bc6ba4187e3b0e63e9d0b4, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: _EMISSION_ON
+        passType: 0
+      - keywords: _MASK_ON
+        passType: 0
+      - keywords: _EMISSION_ON _MASK_ON
+        passType: 0
+      - keywords: _DST_BLEND_ONE
+        passType: 0
+      - keywords: _DST_BLEND_ONE _EMISSION_ON
+        passType: 0
+      - keywords: _DST_BLEND_ONE _MASK_ON
+        passType: 0
+      - keywords: _DST_BLEND_ONE _EMISSION_ON _MASK_ON
+        passType: 0
+  - first: {fileID: 4800000, guid: 931595e2302c3c247ad86516ef000477, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: ca60ac033375792499fbb54fe95baeb9, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL _V_T2M_ADDPASSSPLAT1_NORMAL_ON _V_T2M_ADDPASSSPLAT2_NORMAL_ON
+          _V_T2M_ADDPASSSPLAT3_NORMAL_ON _V_T2M_ADDPASSSPLAT4_NORMAL_ON
+        passType: 4
+      - keywords: DIRECTIONAL _SHADOW_SOFT_2X2 _V_T2M_ADDPASSSPLAT1_NORMAL_ON _V_T2M_ADDPASSSPLAT2_NORMAL_ON
+          _V_T2M_ADDPASSSPLAT3_NORMAL_ON _V_T2M_ADDPASSSPLAT4_NORMAL_ON
+        passType: 4
+      - keywords: POINT _V_T2M_ADDPASSSPLAT1_NORMAL_ON _V_T2M_ADDPASSSPLAT2_NORMAL_ON
+          _V_T2M_ADDPASSSPLAT3_NORMAL_ON _V_T2M_ADDPASSSPLAT4_NORMAL_ON
+        passType: 5
+  - first: {fileID: 4800000, guid: a10387b3b22de4542b85fee0937b893b, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL _V_T2M_ADDPASSSPLAT1_NORMAL_ON
+        passType: 4
+      - keywords: DIRECTIONAL _SHADOW_SOFT_2X2 _V_T2M_ADDPASSSPLAT1_NORMAL_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON _SHADOW_SOFT_2X2 _V_T2M_ADDPASSSPLAT1_NORMAL_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON SHADOWS_SCREEN _SHADOW_SOFT_2X2 _V_T2M_ADDPASSSPLAT1_NORMAL_ON
+        passType: 4
+      - keywords: POINT _V_T2M_ADDPASSSPLAT1_NORMAL_ON
+        passType: 5
+  - first: {fileID: 4800000, guid: c87dbec3717140a45b092d91590572a4, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: DIRECTIONAL _EMISSION_ON
+        passType: 4
+      - keywords: DIRECTIONAL _WAVEEFFECT_ON
+        passType: 4
+      - keywords: DIRECTIONAL _EMISSION_ON _WAVEEFFECT_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: 5e71f3d3c5ba14741886ba3247de5b41, type: 3}
+    second:
+      variants:
+      - keywords: ADV_HEIGHTMAP_TERRAIN DIRECTIONAL
+        passType: 4
+      - keywords: ADV_HEIGHTMAP_TERRAIN DIRECTIONAL LIGHTMAP_ON
+        passType: 4
+      - keywords: ADV_HEIGHTMAP_TERRAIN DIRECTIONAL _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: ADV_HEIGHTMAP_TERRAIN DIRECTIONAL SHADOWS_SCREEN _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: ADV_HEIGHTMAP_TERRAIN DIRECTIONAL LIGHTMAP_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: ADV_HEIGHTMAP_TERRAIN DIRECTIONAL LIGHTMAP_ON SHADOWS_SCREEN _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: ADV_HEIGHTMAP_TERRAIN DIRECTIONAL INSTANCING_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: ADV_HEIGHTMAP_TERRAIN DIRECTIONAL INSTANCING_ON SHADOWS_SCREEN _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: ADV_HEIGHTMAP_TERRAIN DIRECTIONAL INSTANCING_ON LIGHTMAP_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: ADV_HEIGHTMAP_TERRAIN DIRECTIONAL INSTANCING_ON LIGHTMAP_ON SHADOWS_SCREEN
+          _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+  - first: {fileID: 4800000, guid: 7f6a96f36bd34bb46bab32de8776b900, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 7f2fa794f7e17374d9f604b248d9336a, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL VERTEXLIGHT_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN VERTEXLIGHT_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL _ALPHATEST_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _ALPHATEST_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _PROP_CUBEMAP_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: 
+        passType: 8
+      - keywords: _ALPHATEST_ON
+        passType: 8
+  - first: {fileID: 4800000, guid: adc414a435804fc449f8e780228b3481, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: ec6914553e480d54d80db358ac2615c7, type: 3}
+    second:
+      variants:
+      - keywords: _DOGAMMA_ON _TEXCHANNEL_RGB
+        passType: 0
+  - first: {fileID: 4800000, guid: 8fb7f5c5831c90741af7365c5dd09cf0, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: _EMISSION_ON
+        passType: 0
+      - keywords: _MASK_ON
+        passType: 0
+      - keywords: _EMISSION_ON _MASK_ON
+        passType: 0
+      - keywords: _DST_BLEND_ONE
+        passType: 0
+      - keywords: _DST_BLEND_ONE _MASK_ON
+        passType: 0
+      - keywords: _DST_BLEND_ONE _EMISSION_ON _MASK_ON
+        passType: 0
+  - first: {fileID: 4800000, guid: 7a5158c5b2cad6a4fadf527211188787, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: _DISTANTVIEWTOGGLE_ON
+        passType: 0
+  - first: {fileID: 4800000, guid: c74caec5b34263e41ac8d966c7671caa, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 9a961dd5374d08d49b5d09234cc5b522, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: a6fea8061e80be2488260fb42236de97, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON SHADOWS_SCREEN
+        passType: 4
+  - first: {fileID: 4800000, guid: 73a1cc26aa72b4d418988486691534a0, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN
+        passType: 4
+      - keywords: DIRECTIONAL _BUMPMAP
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _BUMPMAP
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON _BUMPMAP
+        passType: 4
+      - keywords: DIRECTIONAL _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON SHADOWS_SCREEN _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON SHADOWS_SCREEN _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON LIGHTMAP_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON LIGHTMAP_ON SHADOWS_SCREEN _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL _BUMPMAP _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _BUMPMAP _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON _BUMPMAP _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON SHADOWS_SCREEN _BUMPMAP _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON _BUMPMAP _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON SHADOWS_SCREEN _BUMPMAP _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON LIGHTMAP_ON _BUMPMAP _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON LIGHTMAP_ON SHADOWS_SCREEN _BUMPMAP _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL _ALPHATEST_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON _ALPHATEST_ON
+        passType: 4
+      - keywords: DIRECTIONAL _ALPHATEST_ON _BUMPMAP
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _ALPHATEST_ON _BUMPMAP
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON _ALPHATEST_ON _BUMPMAP
+        passType: 4
+      - keywords: DIRECTIONAL _ALPHATEST_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _ALPHATEST_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON _ALPHATEST_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON SHADOWS_SCREEN _ALPHATEST_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON _ALPHATEST_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON SHADOWS_SCREEN _ALPHATEST_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON LIGHTMAP_ON _ALPHATEST_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON LIGHTMAP_ON SHADOWS_SCREEN _ALPHATEST_ON
+          _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL _ALPHATEST_ON _BUMPMAP _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _ALPHATEST_ON _BUMPMAP _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON _ALPHATEST_ON _BUMPMAP _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON _ALPHATEST_ON _BUMPMAP _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON SHADOWS_SCREEN _ALPHATEST_ON _BUMPMAP
+          _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON LIGHTMAP_ON _ALPHATEST_ON _BUMPMAP _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON LIGHTMAP_ON SHADOWS_SCREEN _ALPHATEST_ON
+          _BUMPMAP _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 5
+      - keywords: DIRECTIONAL _BUMPMAP
+        passType: 5
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: _ALPHATEST_ON
+        passType: 8
+      - keywords: INSTANCING_ON _ALPHATEST_ON
+        passType: 8
+  - first: {fileID: 4800000, guid: cab3a3460576aca4da00c563a0751439, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: c267bd56927a20b459455e5a6a87f20d, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL _ALWAYS_USE_BAKEATTEN
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _ALWAYS_USE_BAKEATTEN
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON _ALWAYS_USE_BAKEATTEN
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON _ALWAYS_USE_BAKEATTEN
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON SHADOWS_SCREEN _ALWAYS_USE_BAKEATTEN
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON LIGHTMAP_ON _ALWAYS_USE_BAKEATTEN
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON LIGHTMAP_ON SHADOWS_SCREEN _ALWAYS_USE_BAKEATTEN
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 5
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+  - first: {fileID: 4800000, guid: 728c0e664f8bc78468d36dcb0c49f8d5, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: b465c88695265cb4688399d10534bbee, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: FINAL_BLOOM
+        passType: 0
+      - keywords: FINAL_DOF
+        passType: 0
+  - first: {fileID: 4800000, guid: f9cb76c6cf507ed4c8df73a8848cf5c2, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: ce03010767435444f8d6573552e0cdd7, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL _V_T2M_SPLAT1_NORMAL_ON _V_T2M_SPLAT2_NORMAL_ON
+        passType: 4
+      - keywords: DIRECTIONAL _SHADOW_SOFT_2X2 _V_T2M_SPLAT1_NORMAL_ON _V_T2M_SPLAT2_NORMAL_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON _SHADOW_SOFT_2X2 _V_T2M_SPLAT1_NORMAL_ON
+          _V_T2M_SPLAT2_NORMAL_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON SHADOWS_SCREEN _SHADOW_SOFT_2X2 _V_T2M_SPLAT1_NORMAL_ON
+          _V_T2M_SPLAT2_NORMAL_ON
+        passType: 4
+      - keywords: POINT _V_T2M_SPLAT1_NORMAL_ON _V_T2M_SPLAT2_NORMAL_ON
+        passType: 5
+  - first: {fileID: 4800000, guid: 3f6d8a47552728842a4d59b6ad066c1c, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL _V_T2M_SPLAT1_NORMAL_ON
+        passType: 4
+      - keywords: DIRECTIONAL _SHADOW_SOFT_2X2 _V_T2M_SPLAT1_NORMAL_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON _SHADOW_SOFT_2X2 _V_T2M_SPLAT1_NORMAL_ON
+        passType: 4
+      - keywords: POINT _V_T2M_SPLAT1_NORMAL_ON
+        passType: 5
+      - keywords: 
+        passType: 8
+  - first: {fileID: 4800000, guid: df64a677e60a32747838c380b8a8d0e4, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 728b0b77c4d35314a86496174f96363f, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: c84fff77f1df44d4abbc5c570fb2cc9c, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: af67cab7bcc960f45b5b2d332abe641d, type: 3}
+    second:
+      variants:
+      - keywords: ADV_HEIGHTMAP_TERRAIN DIRECTIONAL
+        passType: 4
+      - keywords: ADV_HEIGHTMAP_TERRAIN DIRECTIONAL LIGHTMAP_ON
+        passType: 4
+      - keywords: ADV_HEIGHTMAP_TERRAIN DIRECTIONAL _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: ADV_HEIGHTMAP_TERRAIN DIRECTIONAL LIGHTMAP_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: ADV_HEIGHTMAP_TERRAIN DIRECTIONAL LIGHTMAP_ON SHADOWS_SCREEN _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: ADV_HEIGHTMAP_TERRAIN DIRECTIONAL INSTANCING_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: ADV_HEIGHTMAP_TERRAIN DIRECTIONAL INSTANCING_ON SHADOWS_SCREEN _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: ADV_HEIGHTMAP_TERRAIN DIRECTIONAL INSTANCING_ON LIGHTMAP_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: ADV_HEIGHTMAP_TERRAIN DIRECTIONAL INSTANCING_ON LIGHTMAP_ON SHADOWS_SCREEN
+          _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+  - first: {fileID: 4800000, guid: 44c5dfc7402939543a50b620c67edfc2, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 4fb519d727cb92b4691bcf3cdf0a50e8, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: _DST_BLEND_ONE
+        passType: 0
+      - keywords: _DISSOLUTIONTEX_ON
+        passType: 0
+      - keywords: _DISSOLUTIONTEX_ON _DST_BLEND_ONE
+        passType: 0
+  - first: {fileID: 4800000, guid: 9df8f61865992b6448d14d4eb2a2165d, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL INSTANCING_ON
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON SHADOWS_SCREEN
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON _WAVEEFFECT_ON
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON SHADOWS_SCREEN _WAVEEFFECT_ON
+        passType: 4
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: INSTANCING_ON _WAVEEFFECT_ON
+        passType: 8
+  - first: {fileID: 4800000, guid: b803d928cb5f3d5429b6f362cedf8fcb, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN
+        passType: 4
+      - keywords: DIRECTIONAL _ALPHATEST_ON
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _ALPHATEST_ON
+        passType: 4
+      - keywords: DIRECTIONAL _CUBEMAP _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _CUBEMAP _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _ALPHATEST_ON _CUBEMAP _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL _DIRECTED_SCALE
+        passType: 4
+      - keywords: DIRECTIONAL _CUBEMAP _DIRECTED_SCALE _NORMALMAP
+        passType: 4
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 4800000, guid: 5e68b8486baef464182b5f2871f1f10a, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN
+        passType: 4
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 4800000, guid: 4d9b175826364184ca7db46cdd310048, type: 3}
+    second:
+      variants:
+      - keywords: ADV_HEIGHTMAP_TERRAIN DIRECTIONAL
+        passType: 4
+      - keywords: ADV_HEIGHTMAP_TERRAIN DIRECTIONAL LIGHTMAP_ON
+        passType: 4
+      - keywords: ADV_HEIGHTMAP_TERRAIN DIRECTIONAL _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: ADV_HEIGHTMAP_TERRAIN DIRECTIONAL SHADOWS_SCREEN _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: ADV_HEIGHTMAP_TERRAIN DIRECTIONAL LIGHTMAP_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: ADV_HEIGHTMAP_TERRAIN DIRECTIONAL LIGHTMAP_ON SHADOWS_SCREEN _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: ADV_HEIGHTMAP_TERRAIN DIRECTIONAL INSTANCING_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: ADV_HEIGHTMAP_TERRAIN DIRECTIONAL INSTANCING_ON SHADOWS_SCREEN _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: ADV_HEIGHTMAP_TERRAIN DIRECTIONAL INSTANCING_ON LIGHTMAP_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: ADV_HEIGHTMAP_TERRAIN DIRECTIONAL INSTANCING_ON LIGHTMAP_ON SHADOWS_SCREEN
+          _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 5
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+  - first: {fileID: 4800000, guid: 243c5368d54d06d45ab3277331e604d8, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+  - first: {fileID: 4800000, guid: 374f84d84da58d14abd401db809636b3, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+      - keywords: _EMISSION_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: 6da90a19ddd77ac4da0ac9cac5b14ebe, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 4e5534297d403b34ca4ab56c1c419192, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: DIRECTIONAL _CUBEMAP _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL _CUBEMAP _NORMALMAP _PBRCONTROLMAP
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _CUBEMAP _NORMALMAP _PBRCONTROLMAP
+        passType: 4
+      - keywords: DIRECTIONAL _STRENGTHENRIMLIGHT_ON
+        passType: 4
+      - keywords: DIRECTIONAL _CUBEMAP _NORMALMAP _STRENGTHENRIMLIGHT_ON
+        passType: 4
+      - keywords: DIRECTIONAL _CUBEMAP _NORMALMAP _PBRCONTROLMAP _STRENGTHENRIMLIGHT_ON
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _CUBEMAP _NORMALMAP _PBRCONTROLMAP _STRENGTHENRIMLIGHT_ON
+        passType: 4
+      - keywords: 
+        passType: 8
+  - first: {fileID: 4800000, guid: 898b0179c00efbe41af9a2ae150e7f6d, type: 3}
+    second:
+      variants:
+      - keywords: _ADDTEX_ON
+        passType: 0
+      - keywords: _ADDTEX_ON _DST_BLEND_ONE
+        passType: 0
+  - first: {fileID: 4800000, guid: 2e1adb89c9ec3604db5b6cfb4fac1ce2, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL _WAVEEFFECT_ON
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON _WAVEEFFECT_ON
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON SHADOWS_SCREEN _WAVEEFFECT_ON
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON _SHADOW_SOFT_2X2 _WAVEEFFECT_ON
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON SHADOWS_SCREEN _SHADOW_SOFT_2X2 _WAVEEFFECT_ON
+        passType: 4
+      - keywords: DIRECTIONAL _USELIGHTMAPINTENSITY_ON _WAVEEFFECT_ON
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON _USELIGHTMAPINTENSITY_ON _WAVEEFFECT_ON
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON SHADOWS_SCREEN _USELIGHTMAPINTENSITY_ON
+          _WAVEEFFECT_ON
+        passType: 4
+      - keywords: DIRECTIONAL _SHADOW_SOFT_2X2 _USELIGHTMAPINTENSITY_ON _WAVEEFFECT_ON
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON _SHADOW_SOFT_2X2 _USELIGHTMAPINTENSITY_ON
+          _WAVEEFFECT_ON
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON SHADOWS_SCREEN _SHADOW_SOFT_2X2 _USELIGHTMAPINTENSITY_ON
+          _WAVEEFFECT_ON
+        passType: 4
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: INSTANCING_ON SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 4800000, guid: 7ca29c8963f85394fa9dbe1caf65b0fb, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: dd2f59c918f57774e9c54592369105b9, type: 3}
+    second:
+      variants:
+      - keywords: _NOISETEX_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: 3307e7f992753f14383fa08b367259ea, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 200c370aa21221847acef2f7fdf752d9, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: 8ffa4f5addbeeda4fafa45a1dfab9998, type: 3}
+    second:
+      variants:
+      - keywords: _POST_PROCESS_ON
+        passType: 0
+  - first: {fileID: 4800000, guid: cfb8f86aaaeca2f40b5738112738edf2, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL _V_T2M_SPLAT1_NORMAL_ON _V_T2M_SPLAT2_NORMAL_ON _V_T2M_SPLAT3_NORMAL_ON
+        passType: 4
+      - keywords: DIRECTIONAL _SHADOW_SOFT_2X2 _V_T2M_SPLAT1_NORMAL_ON _V_T2M_SPLAT2_NORMAL_ON
+          _V_T2M_SPLAT3_NORMAL_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON _SHADOW_SOFT_2X2 _V_T2M_SPLAT1_NORMAL_ON
+          _V_T2M_SPLAT2_NORMAL_ON _V_T2M_SPLAT3_NORMAL_ON
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON SHADOWS_SCREEN _SHADOW_SOFT_2X2 _V_T2M_SPLAT1_NORMAL_ON
+          _V_T2M_SPLAT2_NORMAL_ON _V_T2M_SPLAT3_NORMAL_ON
+        passType: 4
+      - keywords: POINT _V_T2M_SPLAT1_NORMAL_ON _V_T2M_SPLAT2_NORMAL_ON _V_T2M_SPLAT3_NORMAL_ON
+        passType: 5
+      - keywords: 
+        passType: 8
+  - first: {fileID: 4800000, guid: 8599c67a358c11543aa86635237c57a5, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: 
+        passType: 4
+      - keywords: _PBRCONTROLMAP
+        passType: 4
+  - first: {fileID: 4800000, guid: 8a1ef68a72d925a4fb2a1b05cf131f75, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: aee510cab8b3f37418da744feebd0088, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL _WAVEEFFECT_ON
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON _WAVEEFFECT_ON
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON SHADOWS_SCREEN _WAVEEFFECT_ON
+        passType: 4
+      - keywords: DIRECTIONAL _USELIGHTMAPINTENSITY_ON
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON _USELIGHTMAPINTENSITY_ON
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON SHADOWS_SCREEN _USELIGHTMAPINTENSITY_ON
+        passType: 4
+      - keywords: DIRECTIONAL _USELIGHTMAPINTENSITY_ON _WAVEEFFECT_ON
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON _USELIGHTMAPINTENSITY_ON _WAVEEFFECT_ON
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON SHADOWS_SCREEN _USELIGHTMAPINTENSITY_ON
+          _WAVEEFFECT_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: 9ce35ddacd253b645a16f25e6de702ea, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: dd141e2b21c6d2d4690a8d807629b670, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON SHADOWS_SCREEN
+        passType: 4
+      - keywords: DIRECTIONAL _ALPHATEST_ON
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _ALPHATEST_ON
+        passType: 4
+      - keywords: DIRECTIONAL _DONTRECEIVEFOG_ON
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _DONTRECEIVEFOG_ON
+        passType: 4
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 4800000, guid: be0f2f4b03678e54783ba5b1b5fe2ee1, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: c3c19b5b4aa9995478e51d4f2caa64b0, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 4efc626b871d45e4c8a68c17c93208a2, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: 
+        passType: 4
+      - keywords: _MASK_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: ca18c51c1b7b39948ac458898eb2daff, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 1653862c0ba94df4e9c571789fe66321, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL _ALPHATEST_ON _CUBEMAP _NORMALMAP _PBRCONTROLMAP
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _ALPHATEST_ON _CUBEMAP _NORMALMAP _PBRCONTROLMAP
+        passType: 4
+      - keywords: DIRECTIONAL _ALPHATEST_ON _CUBEMAP _NORMALMAP _PBRCONTROLMAP _SOULMODE_ON
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _ALPHATEST_ON _CUBEMAP _NORMALMAP _PBRCONTROLMAP
+          _SOULMODE_ON
+        passType: 4
+      - keywords: 
+        passType: 8
+      - keywords: _ALPHATEST_ON
+        passType: 8
+  - first: {fileID: 4800000, guid: 341b058cd7dee4f5cba5cc59a513619e, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: f4884c9ca80d66e41b335a3f691d6dea, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: _DST_BLEND_ONE
+        passType: 0
+      - keywords: _DISSLUTION_ON
+        passType: 0
+      - keywords: _DISSLUTION_ON _DST_BLEND_ONE
+        passType: 0
+  - first: {fileID: 4800000, guid: d72f74acac9dad04c8f89104138f4445, type: 3}
+    second:
+      variants:
+      - keywords: ETC1_EXTERNAL_ALPHA
+        passType: 0
+  - first: {fileID: 4800000, guid: 4e3762ccdd9c6544a9f7979e058a3d69, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL _WAVEEFFECT_ON
+        passType: 4
+      - keywords: DIRECTIONAL _USELIGHTMAPINTENSITY_ON _WAVEEFFECT_ON
+        passType: 4
+      - keywords: DIRECTIONAL _WAVEEFFECT_ON
+        passType: 5
+      - keywords: DIRECTIONAL _USELIGHTMAPINTENSITY_ON _WAVEEFFECT_ON
+        passType: 5
+  - first: {fileID: 4800000, guid: 4e1025dc9ed601f4aacddd57fc666ab8, type: 3}
+    second:
+      variants:
+      - keywords: _SAMPLE_MAP3
+        passType: 0
+      - keywords: _SAMPLE_MAP0
+        passType: 0
+      - keywords: _SAMPLE_MAP1
+        passType: 0
+      - keywords: _SAMPLE_MAP00
+        passType: 0
+      - keywords: _BIGWORLD_MAP _SAMPLE_MAP00
+        passType: 0
+      - keywords: _BIGWORLD_MAP _SAMPLE_MAP01
+        passType: 0
+      - keywords: _BIGWORLD_MAP _SAMPLE_MAP03
+        passType: 0
+  - first: {fileID: 4800000, guid: 77a3c6dc93ad1af45a5439ed5b700549, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN
+        passType: 4
+      - keywords: DIRECTIONAL _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON SHADOWS_SCREEN _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL _BUMPMAP _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _BUMPMAP _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON _BUMPMAP _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON SHADOWS_SCREEN _BUMPMAP _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON _BUMPMAP _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON LIGHTMAP_ON _BUMPMAP _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON LIGHTMAP_ON SHADOWS_SCREEN _BUMPMAP _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL _ALPHATEST_ON
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _ALPHATEST_ON
+        passType: 4
+      - keywords: DIRECTIONAL _ALPHATEST_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _ALPHATEST_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON _ALPHATEST_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON SHADOWS_SCREEN _ALPHATEST_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL _ALPHATEST_ON _BUMPMAP _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON _ALPHATEST_ON _BUMPMAP _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON SHADOWS_SCREEN _ALPHATEST_ON _BUMPMAP _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL _PROP_CUBEMAP_ON
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _PROP_CUBEMAP_ON
+        passType: 4
+      - keywords: DIRECTIONAL _PROP_CUBEMAP_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _PROP_CUBEMAP_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON _PROP_CUBEMAP_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON SHADOWS_SCREEN _PROP_CUBEMAP_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL _ALPHATEST_ON _PROP_CUBEMAP_ON
+        passType: 4
+      - keywords: DIRECTIONAL _ALPHATEST_ON _PROP_CUBEMAP_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _ALPHATEST_ON _PROP_CUBEMAP_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON _ALPHATEST_ON _PROP_CUBEMAP_ON _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTMAP_ON SHADOWS_SCREEN _ALPHATEST_ON _PROP_CUBEMAP_ON
+          _SHADOW_SOFT_2X2
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 5
+      - keywords: DIRECTIONAL _ALPHATEST_ON
+        passType: 5
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: SHADOWS_DEPTH _ALPHATEST_ON
+        passType: 8
+  - first: {fileID: 4800000, guid: d4f158ec94a453e4f9bc4c07bec23458, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: DIRECTIONAL _WAVEEFFECT_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: 8ec3ae0dce689a047b7d8ccbf08b9373, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 7b3c372d09748b5478454607da680827, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+  - first: {fileID: 4800000, guid: c5eda04de9eca2b4f9ee668c7621a9cc, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL _USELIGHTMAPINTENSITY_ON _WAVEEFFECT_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: 21fd848dd1ab13a469f47f13426d0a89, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: _DST_BLEND_ONE
+        passType: 0
+      - keywords: _NOISETEX_ON
+        passType: 0
+      - keywords: _DST_BLEND_ONE _NOISETEX_ON
+        passType: 0
+      - keywords: _DST_BLEND_ONE _MASKTEX_ON
+        passType: 0
+      - keywords: _DST_BLEND_ONE _MASKTEX_ON _NOISETEX_ON
+        passType: 0
+  - first: {fileID: 4800000, guid: 7fe1d69d94dcb644a84cf42ca8b5668b, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 123c64fd61e3980439b24b6bfb085164, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL _V_T2M_ADDPASSSPLAT1_NORMAL_ON _V_T2M_ADDPASSSPLAT2_NORMAL_ON
+        passType: 4
+      - keywords: DIRECTIONAL _SHADOW_SOFT_2X2 _V_T2M_ADDPASSSPLAT1_NORMAL_ON _V_T2M_ADDPASSSPLAT2_NORMAL_ON
+        passType: 4
+      - keywords: POINT _V_T2M_ADDPASSSPLAT1_NORMAL_ON _V_T2M_ADDPASSSPLAT2_NORMAL_ON
+        passType: 5
+  - first: {fileID: 4800000, guid: 8a67010e9c65b9443a2a3e1905eaa469, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: DIRECTIONAL _PBRCONTROLMAP
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _PBRCONTROLMAP
+        passType: 4
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 4800000, guid: 4cf9f80e5ae9b2a468e18837fa878175, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 159b6d0edc00c60438d09437ec7485bf, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: cd14d29e5e7478648978daa723999976, type: 3}
+    second:
+      variants:
+      - keywords: INSTANCING_ON
+        passType: 0
+      - keywords: INSTANCING_ON _WAVEEFFECT_ON
+        passType: 0
+  - first: {fileID: 4800000, guid: 45ee44aeab9416e4ea99b4148c2a470f, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 4
+  - first: {fileID: 4800000, guid: 6c592a1f8fdfe4c498e7219ec70eff7d, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: INSTANCING_ON
+        passType: 0
+      - keywords: _WAVEEFFECT_ON
+        passType: 0
+      - keywords: INSTANCING_ON _WAVEEFFECT_ON
+        passType: 0
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON SHADOWS_SCREEN
+        passType: 4
+      - keywords: DIRECTIONAL _WAVEEFFECT_ON
+        passType: 4
+      - keywords: DIRECTIONAL SHADOWS_SCREEN _WAVEEFFECT_ON
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON _WAVEEFFECT_ON
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON SHADOWS_SCREEN _WAVEEFFECT_ON
+        passType: 4
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: _WAVEEFFECT_ON
+        passType: 8
+      - keywords: INSTANCING_ON _WAVEEFFECT_ON
+        passType: 8
+  - first: {fileID: 4800000, guid: 4616567f6f497d0489c9efcc8e96b895, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 665236df9dc0d334fa9ad58129d5f435, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0

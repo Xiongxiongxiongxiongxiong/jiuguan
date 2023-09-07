@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 773934134c33c274bbcfc22d2000d427
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _T_StoneG_N: {fileID: 2800000, guid: a7bc827558951704f9173f48f977ccda, type: 3}
+  - _T_StoneG_D: {fileID: 2800000, guid: d6e1ae5585978da4ca965212c0e94533, type: 3}
+  - _T_StoneGlass_D: {fileID: 2800000, guid: 807f6a7638ad3594ea98b399f4b56056, type: 3}
+  - _T_StoneMask_D: {fileID: 2800000, guid: cbc93391224471148b913b06e97d8c4e, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

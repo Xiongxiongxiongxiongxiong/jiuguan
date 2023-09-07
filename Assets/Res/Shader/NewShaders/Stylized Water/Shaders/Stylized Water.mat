@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Stylized Water
+  m_Shader: {fileID: 4800000, guid: 863cd3c50822c564da75ea63b9a007c4, type: 3}
+  m_ShaderKeywords: FANCY_SHADOWS SAMPLE_SHADOWS
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CausticTexture:
+        m_Texture: {fileID: 2800000, guid: 12c480518ba230749a0770085f5d053d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cubemap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EdgeFoamTex:
+        m_Texture: {fileID: 2800000, guid: 027229dd59b5109458ee983fd0eb35d4, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _FoamMap:
+        m_Texture: {fileID: 2800000, guid: 41ea33a7d3c9049338a01c1b14bf9d19, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamNormalMap:
+        m_Texture: {fileID: 2800000, guid: 41ea33a7d3c9049338a01c1b14bf9d19, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamTexture:
+        m_Texture: {fileID: 2800000, guid: 581fcfd543a4445829bb923bace720da, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskMap:
+        m_Texture: {fileID: 2800000, guid: d4ed99101f3eb6f43a823a0e8b129218, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SparklesNormalMap:
+        m_Texture: {fileID: 2800000, guid: fab6b5b579fb24c1aa6ddc2fa68e4333, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaveNormalMap:
+        m_Texture: {fileID: 2800000, guid: ed512d00c2b0c0748bcb5cf3fce1a4c8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 1
+    - _CausticContribution: 0.05
+    - _CausticNoiseScale: 0.15
+    - _CausticScale: 3
+    - _CausticSpeed: 0.1
+    - _CubeMapIntensity: 0
+    - _DepthDensity: 0.015
+    - _DistanceDensity: 0
+    - _DistortDensity: 0.02
+    - _DistortIntensity: 1.5
+    - _DistortXOffset: -0.01
+    - _DistortYOffset: -0.01
+    - _EdgeFoamDepth: 0.028
+    - _EdgeFoamExponent: 5
+    - _EdgeFoamIntensity: 5
+    - _EdgeFoamSpeed: 0.003
+    - _FancyShadows: 0
+    - _FoamContribution: 1.44
+    - _FoamExponent: 5
+    - _FoamNoiseScale: 0.2
+    - _FoamRange: 0.049
+    - _FoamScale: 10
+    - _FoamSpeed: 0.05
+    - _MaxSampleDistance: 49
+    - _MaxShadowDistance: 40
+    - _ReflectionContribution: 0.5
+    - _RefractionStrength: 0
+    - _SSSRange: 1
+    - _SparkleExponent: 10000
+    - _SparkleScale: 5
+    - _SparkleSpeed: 0.05
+    - _SunSpecularExponent: 500
+    - _VertexNormalDelta: 0.01
+    - _Wave1Amplitude: 0
+    - _Wave1Direction: 0
+    - _Wave1Speed: 0
+    - _Wave1Wavelength: 2
+    - _Wave2Amplitude: 0
+    - _Wave2Direction: 0
+    - _Wave2Speed: 0
+    - _Wave2Wavelength: 7.5
+    - _WaveNormalDelta: 0.01
+    - _WaveNormalIntensity: 0.2
+    - _WaveNormalScale: 2
+    - _WaveNormalSpeed: 0.1
+    m_Colors:
+    - _DeepColor: {r: 0.12829298, g: 0.3241085, b: 0.8773585, a: 1}
+    - _EdgeFoamColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FarColor: {r: 0.16237983, g: 0.30486113, b: 0.8396226, a: 1}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SSSColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ShadowColor: {r: 0, g: 0, b: 0, a: 0.5019608}
+    - _ShallowColor: {r: 0.36320752, g: 0.6493796, b: 1, a: 1}
+    - _SparkleColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SunSpecularColor: {r: 1, g: 1, b: 1, a: 1}

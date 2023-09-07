@@ -13,7 +13,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{19D602D4-5FEF-BAB2-D3DE-80F5C75AB5E0}</ProjectGuid>
+    <ProjectGuid>{05BCD0EC-26B9-6865-3618-5F6BA34D62BB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -88,71 +88,219 @@
     <Compile Include="Assets\Res\Shader\Lightbeam\Scripts\LightbeamSettings.cs" />
     <Compile Include="Assets\Res\Shader\NewShaders\ArtTools\Paint.cs" />
     <Compile Include="Assets\Res\Shader\NewShaders\ArtTools\Tools\ShowTBN.cs" />
+    <Compile Include="Assets\Res\Shader\NewShaders\PlanarReflection\Scripts\PlanarReflection.cs" />
+    <Compile Include="Assets\Res\Shader\NewShaders\Sky\Scripts\BindableProperty.cs" />
+    <Compile Include="Assets\Res\Shader\NewShaders\Sky\Scripts\LightController.cs" />
+    <Compile Include="Assets\Res\Shader\NewShaders\Sky\Scripts\SkyController.cs" />
+    <Compile Include="Assets\Res\Shader\NewShaders\Sky\Scripts\SkyEnvironmentController.cs" />
+    <Compile Include="Assets\Res\Shader\NewShaders\Sky\Scripts\SkyManager.cs" />
+    <Compile Include="Assets\Res\Shader\NewShaders\Sky\Scripts\SkyRenderController.cs" />
+    <Compile Include="Assets\Res\Shader\NewShaders\Sky\Scripts\SkyShaderUniforms.cs" />
+    <Compile Include="Assets\Res\Shader\NewShaders\Sky\Scripts\SkyTimeController.cs" />
+    <Compile Include="Assets\Res\Shader\NewShaders\Sky\Scripts\SkyUtilities.cs" />
     <Compile Include="Assets\Res\Shader\NewShaders\Stylized Water\Scripts\GetCameraDepth.cs" />
     <Compile Include="Assets\Res\Shader\NewShaders\Stylized Water\Scripts\GrabShadowMap.cs" />
     <Compile Include="Assets\Res\Shader\Script\CustomMaterialLighting.cs" />
     <Compile Include="Assets\Rotation_DL.cs" />
     <Compile Include="Assets\Scenes\ExcludeFromBuild\EffectCheckLevel.cs" />
+    <None Include="Assets\Res\Shader\maotai_skybox_01.shader" />
+    <None Include="Assets\Res\Shader\NewShaders\Sky\Shaders\EmptySky.shader" />
+    <None Include="Assets\Res\Shader\ArtDesignShaders\MyHairLightingM1.cginc" />
+    <None Include="Assets\Res\Shader\ArtDesignShaders\MyHairBRDF.cginc" />
+    <None Include="Assets\Res\Shader\NewShaders\Glass\MT_Standard_GlassCup.shader" />
+    <None Include="Assets\Res\Shader\ArtDesignShaders\MyHairLightingM2.cginc" />
+    <None Include="Assets\Res\Shader\WorkCommon.cginc" />
+    <None Include="Assets\Res\Shader\NewShaders\Glass\LowLevel\MT_Standard_LowLevel_NormalBlur.shader" />
+    <None Include="Assets\Res\Shader\Effect\Rain.shader" />
+    <None Include="Assets\Res\Shader\WorkPBSLighting.cginc" />
     <None Include="Assets\Res\art\scenes\shader\Suntail_Water.shader" />
+    <None Include="Assets\Res\Shader\XF_MetalReflection.shader" />
+    <None Include="Assets\Res\Shader\CharacterShader.shader" />
+    <None Include="Assets\Res\Shader\NewShaders\Effects\MT_Effect_AnimationFactor.shader" />
+    <None Include="Assets\Res\Shader\NewShaders\Effects\MT_Distort.shader" />
+    <None Include="Assets\Res\Shader\CharacterHiddenEffect.shader" />
+    <None Include="Assets\Res\Shader\MT_VFX_CullOff_VertexOffset.shader" />
+    <None Include="Assets\Res\Shader\UI\XF_UI_ColorBlend.shader" />
+    <None Include="Assets\Res\Shader\MT_VFX_Add.shader" />
+    <None Include="Assets\Res\Shader\PbrHeader.cginc" />
+    <None Include="Assets\Res\Shader\NewShaders\Glass\LowLevel\BlurFunction.cginc" />
+    <None Include="Assets\Res\Shader\Test\ManualGrabPassShader.shader" />
+    <None Include="Assets\Res\Shader\Alpha.shader" />
+    <None Include="Assets\Res\Shader\cjjfbh\Cjjfbh_Grass.shader" />
     <None Include="Assets\Res\art\scenes_xf\Lutify\Shaders\Lutify2D.shader" />
+    <None Include="Assets\Res\Shader\NewShaders\Glass\HighLevel\MT_Standard_HighLevel_GaussianBlur.shader" />
     <None Include="Assets\Res\art\scenes_xf\Lutify\Shaders\Lutify3D.shader" />
+    <None Include="Assets\Res\Shader\ArtDesignShaders\check_hair_AB.shader" />
+    <None Include="Assets\Res\Shader\HawkEyeHeader.cginc" />
+    <None Include="Assets\Res\Shader\NewShaders\Standard\MT_Standard.shader" />
+    <None Include="Assets\Res\Shader\UseBeginGuide\XF_UI_ProceduralImage.shader" />
+    <None Include="Assets\Res\Shader\cjjfbh\Cjjbh_Stone.shader" />
+    <None Include="Assets\Res\Shader\MT_VFX_Add_Z.shader" />
+    <None Include="Assets\Res\Shader\MT_Standard_Tree.shader" />
+    <None Include="Assets\Res\Shader\MT_VFX_Alpha.shader" />
+    <None Include="Assets\Res\Shader\MT_VFX_Alpha_Z.shader" />
+    <None Include="Assets\Res\Shader\PostProcess\SMAA.shader" />
+    <None Include="Assets\Res\Shader\CharacterTransparentLow.shader" />
+    <None Include="Assets\Res\Shader\UI-Sepia.shader" />
+    <None Include="Assets\Res\Shader\NewShaders\Standard\TeleportTest.shader" />
+    <None Include="Assets\Res\Shader\NewShaders\Snow&amp;Ice\MT_Standard_SnowIce.shader" />
+    <None Include="Assets\Res\Shader\PBRModel.shader" />
+    <None Include="Assets\Res\Shader\cjjfbh\Cjjfbh_Mountain.shader" />
+    <None Include="Assets\Res\Shader\NewShaders\Standard\MT_Standard_Outline.shader" />
+    <None Include="Assets\Res\Shader\maotai_zw_01.shader" />
+    <None Include="Assets\Res\Shader\SampleShadowmapHeader.cginc" />
+    <None Include="Assets\Res\Shader\Demo\HW\Effect\Particle_Add.shader" />
+    <None Include="Assets\Res\Shader\Toon_OutLine_Alpha.shader" />
+    <None Include="Assets\Res\Shader\NewShaders\Standard\MT_Standard_SSS.shader" />
+    <None Include="Assets\Res\Shader\UseBeginGuide\CircleGuide.shader" />
+    <None Include="Assets\Res\Shader\MT_Character_Hair.shader" />
     <None Include="Assets\zihua.shader" />
+    <None Include="Assets\Res\Shader\NewShaders\Stylized Water\Shaders\Stylized Water_Mask.shader" />
+    <None Include="Assets\Res\Shader\Skybox\Skybox_HandPainted.shader" />
+    <None Include="Assets\Res\Shader\maotai_water_01.shader" />
+    <None Include="Assets\Res\Shader\NewShaders\RunLight\MT_Standard_LightBar.shader" />
+    <None Include="Assets\Res\Shader\Text.shader" />
+    <None Include="Assets\Res\Shader\MT_Character_Alpha.shader" />
+    <None Include="Assets\Res\Shader\AmplifyImposter\VegetationImposter.shader" />
+    <None Include="Assets\Res\Shader\MT_Standard_Matcap.shader" />
+    <None Include="Assets\Res\Shader\NewShaders\PlanarReflection\Shader\MT_Standard_PlanarReflection.shader" />
+    <None Include="Assets\Res\Shader\VertexLitLeaf.shader" />
+    <None Include="Assets\Res\Shader\PostProcess\PostProcessController.shader" />
+    <None Include="Assets\Res\Shader\PostProcess\PostProcess.shader" />
+    <None Include="Assets\Res\Shader\NewShaders\Sky\Shaders\StaticClouds.shader" />
+    <None Include="Assets\Res\Shader\WorkLighting.cginc" />
+    <None Include="Assets\Res\Shader\CustomBRDF.cginc" />
+    <None Include="Assets\Res\Shader\MT_Standard_Rim.shader" />
+    <None Include="Assets\Res\Shader\MathHeader.cginc" />
+    <None Include="Assets\Res\Shader\WavingEffectHeader.cginc" />
+    <None Include="Assets\Res\Shader\Demo\HW\Effect\Particle_Alpha.shader" />
+    <None Include="Assets\Res\Shader\NewShaders\Standard\MT_Standard_Matcap.shader" />
+    <None Include="Assets\Res\Shader\PostProcess\CaptureMapPostProcess.shader" />
+    <None Include="Assets\Res\Shader\NewShaders\Stylized Water\Shaders\Stylized Water.shader" />
+    <None Include="Assets\Res\Shader\XF_SimpleWater.shader" />
+    <None Include="Assets\Res\Shader\MT_CustomPBR.shader" />
+    <None Include="Assets\Res\Shader\cjjfbh\Cjjfbh_Water.shader" />
+    <None Include="Assets\Res\Shader\CharacterShaderLow.shader" />
+    <None Include="Assets\Res\Shader\Unlit_Emissive.shader" />
+    <None Include="Assets\Res\Shader\NewShaders\Plant\MT_Plant.shader" />
+    <None Include="Assets\Res\Shader\BuildIn\Mobile-Diffuse.shader" />
+    <None Include="Assets\Res\Shader\MT_Character_Astronaut.shader" />
+    <None Include="Assets\Res\Shader\MT_Character_LowLOD.shader" />
+    <None Include="Assets\Res\Shader\maotai_01.shader" />
+    <None Include="Assets\Res\Shader\MT_Character_Util.cginc" />
+    <None Include="Assets\Res\Shader\CharacterTransparent.shader" />
+    <None Include="Assets\Res\Shader\UtilHeader.cginc" />
+    <None Include="Assets\Res\Shader\maotai_glow_01.shader" />
+    <None Include="Assets\Res\Shader\MT_VFX_Alpha_MaskScreenUV.shader" />
+    <None Include="Assets\Res\Shader\AmplifyImposter\VegetationShader_Baking.shader" />
+    <None Include="Assets\Res\Shader\PostProcess\SMAA.cginc" />
+    <None Include="Assets\Res\Shader\XF_Emissive.shader" />
+    <None Include="Assets\Res\Shader\Toon_OutLine_Lerp.shader" />
+    <None Include="Assets\Res\Shader\Demo\HW\Effect\doubleMeshUV2.shader" />
+    <None Include="Assets\Res\Shader\PostProcess\PostProcessCommon.cginc" />
+    <None Include="Assets\Res\Shader\Skybox\Skybox_Cubed.shader" />
+    <None Include="Assets\Res\Shader\MT_Standard_Alpha.shader" />
+    <None Include="Assets\Res\Shader\OutlineHeader.cginc" />
     <None Include="Assets\Res\art\scenes\shader\AnimGhost.shader" />
+    <None Include="Assets\Res\Shader\PostProcess\ReadPostProcessResult.shader" />
+    <None Include="Assets\Res\Shader\NewShaders\Standard\MT_Standard_Teleport.shader" />
+    <None Include="Assets\Res\Shader\NewShaders\Effects\MT_Effect_AnimationFactor_1.shader" />
+    <None Include="Assets\Res\Shader\Lightbeam\Shaders\Lightbeam_Detail.shader" />
+    <None Include="Assets\Res\Shader\MT_VFX_Add_CullOff.shader" />
+    <None Include="Assets\Res\Shader\XF_Mountain.shader" />
+    <None Include="Assets\Res\Shader\XF_ParallaxMapping.shader" />
+    <None Include="Assets\Res\Shader\Demo\HW\Effect\2layersUV.shader" />
+    <None Include="Assets\Res\Shader\AmplifyImposter\AmplifyImpostors.cginc" />
+    <None Include="Assets\Res\Shader\UI_AlphaThreshold.shader" />
+    <None Include="Assets\Res\Shader\Toon_OutLine.shader" />
+    <None Include="Assets\Res\Shader\Color.shader" />
+    <None Include="Assets\Res\Shader\PostProcess\PostProcessMobile.shader" />
+    <None Include="Assets\Res\Shader\cjjfbh\Cjjfbh_Ground.shader" />
+    <None Include="Assets\Res\Shader\Sprite.shader" />
     <None Include="Assets\Invector-3rdPersonController_LITE\README_Basic.txt" />
+    <None Include="Assets\Res\Shader\MT_VFX_Distort.shader" />
+    <None Include="Assets\Res\Shader\UI\MinimapMask.shader" />
+    <None Include="Assets\Res\Shader\NewShaders\Glass\HighLevel\MT_Standard_HighLevel_NormalBlur.shader" />
+    <None Include="Assets\Res\Shader\NewShaders\Sky\Shaders\DynamicClouds.shader" />
+    <None Include="Assets\Res\Shader\NewShaders\Sky\Shaders\FogScattering.shader" />
+    <None Include="Assets\Res\Shader\MT_Character.shader" />
+    <None Include="Assets\Res\Shader\NewShaders\Standard\Outline.shader" />
+    <None Include="Assets\Res\Shader\UI\XF_UI_SoftMask.shader" />
+    <None Include="Assets\Res\Shader\MT_Character_Hair_Alpha.shader" />
+    <None Include="Assets\Res\Shader\Lightbeam\Shaders\Lightbeam.shader" />
+    <None Include="Assets\Res\Shader\NewShaders\Plant\MT_Plant_Snow.shader" />
+    <None Include="Assets\Res\Shader\CharacterFrozenEffect.shader" />
+    <None Include="Assets\Res\Shader\XF_Loading.shader" />
+    <None Include="Assets\Res\Shader\PostProcess\PostProcessTestorShader.shader" />
+    <None Include="Assets\Res\Shader\MT_Standard.shader" />
+    <None Include="Assets\Res\Shader\UI\AlphaMasking\ToJAlphaMasking.cginc" />
+    <None Include="Assets\Res\Shader\UseBeginGuide\RectGuide.shader" />
+    <None Include="Assets\Res\Shader\MT_VFX_AlphaWithZ.shader" />
+    <None Include="Assets\Res\Shader\Demo\HW\Scene\Unlit.shader" />
+    <None Include="Assets\Res\Shader\AmplifyImposter\AmplifyImpostorsConfig.cginc" />
+    <None Include="Assets\Res\Shader\NewShaders\Glass\LowLevel\MT_Standard_LowLevel_GaussianBlur.shader" />
+    <None Include="Assets\Res\Shader\XF_ScanRim.shader" />
+    <None Include="Assets\Res\Shader\XF_MatCap.shader" />
+    <None Include="Assets\Res\Shader\FastSimpleBloom\FastSimpleBloom.shader" />
+    <None Include="Assets\Res\Shader\CharacterShaderUtil.cginc" />
+    <None Include="Assets\Res\Shader\MT_Character_Eye.shader" />
     <None Include="Assets\Res\art\scenes_xf\Horizon Based Ambient Occlusion\Shaders\HBAO.shader" />
+    <None Include="Assets\Res\Shader\Demo\HW\None.shader" />
+    <None Include="Assets\Res\Shader\DataTypes.cginc" />
+    <None Include="Assets\Res\Shader\XF_TwoSided.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>E:/xiangmu/J/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>E:/GS/jiuguan/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Polybrush">
-      <HintPath>E:/xiangmu/J/Library/ScriptAssemblies/Unity.Polybrush.dll</HintPath>
+      <HintPath>E:/GS/jiuguan/Library/ScriptAssemblies/Unity.Polybrush.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Formats.Fbx.Editor">
-      <HintPath>E:/xiangmu/J/Library/ScriptAssemblies/Unity.Formats.Fbx.Editor.dll</HintPath>
+      <HintPath>E:/GS/jiuguan/Library/ScriptAssemblies/Unity.Formats.Fbx.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Polybrush.Editor">
-      <HintPath>E:/xiangmu/J/Library/ScriptAssemblies/Unity.Polybrush.Editor.dll</HintPath>
+      <HintPath>E:/GS/jiuguan/Library/ScriptAssemblies/Unity.Polybrush.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Recorder.Editor">
-      <HintPath>E:/xiangmu/J/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
+      <HintPath>E:/GS/jiuguan/Library/ScriptAssemblies/Unity.Recorder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing">
-      <HintPath>E:/xiangmu/J/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
+      <HintPath>E:/GS/jiuguan/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>E:/xiangmu/J/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>E:/GS/jiuguan/Library/ScriptAssemblies/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>E:/xiangmu/J/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>E:/GS/jiuguan/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Recorder">
-      <HintPath>E:/xiangmu/J/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
+      <HintPath>E:/GS/jiuguan/Library/ScriptAssemblies/Unity.Recorder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>E:/xiangmu/J/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>E:/GS/jiuguan/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>E:/xiangmu/J/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>E:/GS/jiuguan/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>E:/xiangmu/J/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>E:/GS/jiuguan/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>E:/xiangmu/J/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+      <HintPath>E:/GS/jiuguan/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>E:/xiangmu/J/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+      <HintPath>E:/GS/jiuguan/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Autodesk.Fbx">
-      <HintPath>E:/xiangmu/J/Library/ScriptAssemblies/Autodesk.Fbx.dll</HintPath>
+      <HintPath>E:/GS/jiuguan/Library/ScriptAssemblies/Autodesk.Fbx.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>E:/xiangmu/J/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>E:/GS/jiuguan/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>E:/xiangmu/J/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>E:/GS/jiuguan/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Formats.Fbx.Runtime">
-      <HintPath>E:/xiangmu/J/Library/ScriptAssemblies/Unity.Formats.Fbx.Runtime.dll</HintPath>
+      <HintPath>E:/GS/jiuguan/Library/ScriptAssemblies/Unity.Formats.Fbx.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>D:/unity2018/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -356,13 +504,13 @@
       <HintPath>D:/unity2018/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>E:/xiangmu/J/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>E:/GS/jiuguan/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>E:/xiangmu/J/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>E:/GS/jiuguan/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>E:/xiangmu/J/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>E:/GS/jiuguan/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>D:/unity2018/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

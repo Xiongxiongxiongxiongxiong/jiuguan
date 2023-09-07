@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: b127a1a49eae7fb42b24b99cdb05dbec
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _T_Prop_MountainTop_D: {fileID: 2800000, guid: 3e5aa211f00890e43898815dc95e69c2,
+      type: 3}
+  - _T_Prop_MountainMask_D: {fileID: 2800000, guid: e1244932ce21d4a4abe75bcc941fbb09,
+      type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

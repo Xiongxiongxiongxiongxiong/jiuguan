@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: f113337c1e131f645aa13e3a01e0596d
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _T_RedMarble_ORM: {fileID: 2800000, guid: 06e9658ddb10b8d42806ce71e15bf5eb, type: 3}
+  - _T_CleanJade_D: {fileID: 2800000, guid: 4ed2cb4100c77244180a80e3e4f25355, type: 3}
+  - _T_CleanJade_MRA: {fileID: 2800000, guid: 4038b9bb96ece29469fb29f8ffafbba1, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

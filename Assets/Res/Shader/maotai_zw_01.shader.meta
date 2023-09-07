@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 184357d4b5c8b8343949795ba6832007
+timeCreated: 1665728831
+licenseType: Pro
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _MRA: {fileID: 2800000, guid: 797f3da028b96bf4480481d6be676b31, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
