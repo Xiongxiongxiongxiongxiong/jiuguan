@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Res/art/scenes/jg/jg.unity
+  isLoaded: 1
+  isActive: 1
