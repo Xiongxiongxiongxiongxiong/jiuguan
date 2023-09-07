@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Res/art/scenes/jg/jg.unity
+- path: Assets/Res/art/scenes/jg/jg_xh.unity
   isLoaded: 1
   isActive: 1
