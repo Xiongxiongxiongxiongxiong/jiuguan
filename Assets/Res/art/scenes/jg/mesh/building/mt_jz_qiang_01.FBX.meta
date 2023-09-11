@@ -6,15 +6,28 @@ ModelImporter:
     100000: //RootNode
     400000: //RootNode
     2100000: 24 - Default
+    2100002: qiangti
     2300000: //RootNode
     3300000: //RootNode
     4300000: mt_jz_qiang_01
-  externalObjects: {}
+    4300002: qiangti
+    4300004: dimian
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dimian
+    second: {fileID: 2100000, guid: aed21ad3cd99ebb4caa82d201c9f3dfa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: qiangti
+    second: {fileID: 2100000, guid: 57649426683b23347aae754aabe10d95, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

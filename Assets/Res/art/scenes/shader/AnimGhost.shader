@@ -3,7 +3,7 @@
     Properties
     {
         _MainTex ("Texture", 2D) = "white" {}
-        _Cutoff ("透切阈值", range(0.0, 1.0)) = 0.5
+       _Int("明度",Range(1,5))=1
       //  _ScaleParams    ("天使圈缩放 X:强度 Y:速度 Z:校正", vector) = (0.2, 1.0, 4.5, 0.0)
         _SwingXParams   ("X轴扭动 X:强度 Y:速度 Z:波长", vector) = (1.0, 3.0, 1.0, 0.0)
         _SwingZParams   ("Z轴扭动 X:强度 Y:速度 Z:波长", vector) = (1.0, 3.0, 1.0, 0.0)
@@ -13,12 +13,9 @@
     }
     SubShader
     {
-        Tags {             //   "RenderType"="Opaque"
-      //  } 
-            
-                    "RenderType"="TransparentCutout"   
-            "ForceNoShadowCasting"="True"       // 关闭阴影投射
-            "IgnoreProjector"="True"   }         // 不响应投射器}
+        Tags {                "RenderType"="Opaque"
+        } 
+
         LOD 100
 
         Pass
@@ -27,7 +24,7 @@
             Tags {
                 "LightMode"="ForwardBase"
             }
-        //    Cull Off
+            Cull Off
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
@@ -50,19 +47,19 @@
                 float2 uv : TEXCOORD0;
                 UNITY_FOG_COORDS(1)
                 float4 vertex : SV_POSITION;
-                float2 uv1 : TEXCOORD1;
+                float2 uv1 : TEXCOORD2;
                 float4 color : COLOR;
                 LIGHTING_COORDS(5,6)          // 投影相关
             };
             sampler2D _MainTex;
             float4 _MainTex_ST;
-            uniform half _Cutoff;
+
           //  uniform float4 _ScaleParams;
             uniform float3 _SwingXParams;
             uniform float3 _SwingZParams;
            // uniform float3 _SwingYParams;
             uniform float3 _ShakeYParams;
-
+            uniform float _Int;
 void AnimGhost (inout float3 vertex, inout float3 color)
             {
 
@@ -95,7 +92,7 @@ void AnimGhost (inout float3 vertex, inout float3 color)
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
 
                 UNITY_TRANSFER_FOG(o,o.vertex);
-    TRANSFER_VERTEX_TO_FRAGMENT(o)                  // 投影相关
+                 TRANSFER_VERTEX_TO_FRAGMENT(o)                  // 投影相关
                 return o;
             }
 
@@ -107,17 +104,19 @@ void AnimGhost (inout float3 vertex, inout float3 color)
                 float  mainLightInt  = var_LightMap.r;
                 float  skyLightInt   = var_LightMap.g;
                 float  emissionGIInt = var_LightMap.b;
+                fixed4 col = tex2D(_MainTex, i.uv)*var_LightMap*_Int;
 #else
                 float  mainLightInt  = LIGHT_ATTENUATION(i);
                 float  skyLightInt   = 0.0f;
                 float  emissionGIInt = 0.0f;
+                fixed4 col = tex2D(_MainTex, i.uv)*mainLightInt*_Int;
 #endif
                 // sample the texture
-                fixed4 col = tex2D(_MainTex, i.uv)*mainLightInt;
+                
                 // apply fog
                 UNITY_APPLY_FOG(i.fogCoord, col);
-                clip(col.a - _Cutoff);                  // 透明剪切
-                return half4(col.rgb,col.a);
+               // clip(col.a - _Cutoff);                  // 透明剪切
+                return col;
             }
             ENDCG
         }

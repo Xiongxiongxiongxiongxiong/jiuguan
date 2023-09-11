@@ -14,7 +14,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: mt_prop_tishibei01_mat
-    second: {fileID: 2100000, guid: 6b9587432af9b20468addb21ebe12bc3, type: 2}
+    second: {fileID: 2100000, guid: df89ac11ade13f648ad665d110d2939a, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

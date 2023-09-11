@@ -105,6 +105,7 @@
     <Compile Include="Assets\Scenes\ExcludeFromBuild\EffectCheckLevel.cs" />
     <None Include="Assets\Res\Shader\maotai_skybox_01.shader" />
     <None Include="Assets\Res\Shader\NewShaders\Sky\Shaders\EmptySky.shader" />
+    <None Include="Assets\Res\art\scenes\shader\ZIHUA.shader" />
     <None Include="Assets\Res\Shader\ArtDesignShaders\MyHairLightingM1.cginc" />
     <None Include="Assets\Res\Shader\ArtDesignShaders\MyHairBRDF.cginc" />
     <None Include="Assets\Res\Shader\NewShaders\Glass\MT_Standard_GlassCup.shader" />
@@ -214,6 +215,7 @@
     <None Include="Assets\Res\Shader\UI_AlphaThreshold.shader" />
     <None Include="Assets\Res\Shader\Toon_OutLine.shader" />
     <None Include="Assets\Res\Shader\Color.shader" />
+    <None Include="Assets\Res\art\scenes\shader\waterf.shader" />
     <None Include="Assets\Res\Shader\PostProcess\PostProcessMobile.shader" />
     <None Include="Assets\Res\Shader\cjjfbh\Cjjfbh_Ground.shader" />
     <None Include="Assets\Res\Shader\Sprite.shader" />

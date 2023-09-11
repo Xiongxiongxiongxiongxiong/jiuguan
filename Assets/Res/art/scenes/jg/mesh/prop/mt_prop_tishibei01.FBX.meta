@@ -1,20 +1,31 @@
 fileFormatVersion: 2
-guid: 72b0f44a6598ff94486f7f06e8c4112c
+guid: 77eef85f66dc27f43a1c54061e8c495b
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: mt_prop_tishibei01_mat
+    2100000: mt_prop_tishibei02_mat
+    2100002: mt_prop_tishibei01_mat
     2300000: //RootNode
     3300000: //RootNode
     4300000: mt_prop_tishibei01
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mt_prop_tishibei01_mat
+    second: {fileID: 2100000, guid: b571f18b376ed634c99dce54415a7b7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mt_prop_tishibei02_mat
+    second: {fileID: 2100000, guid: 917f22b39746f344ab3a9375447654de, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
