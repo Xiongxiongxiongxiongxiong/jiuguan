@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2367174004888478109}
   - component: {fileID: 2367174004887708093}
   - component: {fileID: 2367174004886709117}
+  - component: {fileID: 7815577915139317254}
   m_Layer: 0
   m_Name: mt_prop_dengzi01
   m_TagString: Untagged
@@ -77,3 +78,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &7815577915139317254
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2367174004888649149}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2406021, y: 0.9905345, z: 0.37413827}
+  m_Center: {x: 0, y: 0, z: 0}
