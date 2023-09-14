@@ -34,22 +34,25 @@ Shader "MT/MT_WaterFall" {
             struct VertexInput {
                 float4 vertex : POSITION;       // 顶点位置 总是必要
                 float2 uv : TEXCOORD0;          // UV信息 采样贴图用
+                float4 color : Color;
             };
             // 输出结构
             struct VertexOutput {
                 float4 pos : SV_POSITION;       // 顶点位置 总是必要
                 float2 uv : TEXCOORD0;          // UV信息 采样贴图用
+                 float4 color : Color;
             };
             // 输入结构>>>顶点Shader>>>输出结构
             VertexOutput vert (VertexInput v) {
                 VertexOutput o = (VertexOutput)0;
-                    o.pos = UnityObjectToClipPos( v.vertex);    // 顶点位置 OS>CS
+                 o.pos = UnityObjectToClipPos( v.vertex);    // 顶点位置 OS>CS
                  o.uv = TRANSFORM_TEX(v.uv, _MainTex);       // UV信息 支持TilingOffset
+                o.color=v.color;
                 return o;
             }
             // 输出结构>>>像素
             half4 frag(VertexOutput i) : COLOR {
-                half4 var_MainTex = tex2D(_MainTex, float2(i.uv.x,i.uv.y-_Time.x*_WaterfallSleep));      // 采样贴图 RGB颜色 A透贴
+                half4 var_MainTex = tex2D(_MainTex, float2(i.uv.x,i.uv.y-_Time.x*_WaterfallSleep))*i.color;      // 采样贴图 RGB颜色 A透贴
                 half3 finalRGB = var_MainTex.rgb*_MainColor;
                 half opacity = var_MainTex.a * _Opacity;
                 return half4(finalRGB * opacity, opacity);                // 返回值
