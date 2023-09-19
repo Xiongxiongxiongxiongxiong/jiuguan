@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Res/art/scenes/jg/jg_xh_2023.09.13.unity
+- path: Assets/Res/art/scenes/jg/jg_xh_2023.09.19.unity
   isLoaded: 1
   isActive: 1

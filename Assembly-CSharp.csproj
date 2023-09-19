@@ -102,11 +102,8 @@
     <Compile Include="Assets\Res\Shader\NewShaders\Stylized Water\Scripts\GetCameraDepth.cs" />
     <Compile Include="Assets\Res\Shader\NewShaders\Stylized Water\Scripts\GrabShadowMap.cs" />
     <Compile Include="Assets\Res\Shader\Script\CustomMaterialLighting.cs" />
-    <Compile Include="Assets\Rotation_DL.cs" />
-    <Compile Include="Assets\Scenes\ExcludeFromBuild\EffectCheckLevel.cs" />
     <None Include="Assets\Res\Shader\maotai_skybox_01.shader" />
     <None Include="Assets\Res\Shader\NewShaders\Sky\Shaders\EmptySky.shader" />
-    <None Include="Assets\Res\art\scenes\shader\ZIHUA.shader" />
     <None Include="Assets\Res\Shader\ArtDesignShaders\MyHairLightingM1.cginc" />
     <None Include="Assets\Res\Shader\ArtDesignShaders\MyHairBRDF.cginc" />
     <None Include="Assets\Res\Shader\NewShaders\Glass\MT_Standard_GlassCup.shader" />
@@ -142,6 +139,7 @@
     <None Include="Assets\Res\Shader\MT_VFX_Alpha.shader" />
     <None Include="Assets\Res\Shader\MT_VFX_Alpha_Z.shader" />
     <None Include="Assets\Res\Shader\PostProcess\SMAA.shader" />
+    <None Include="Assets\Res\art\scenes\shader\Vlight.shader" />
     <None Include="Assets\Res\Shader\CharacterTransparentLow.shader" />
     <None Include="Assets\Res\Shader\UI-Sepia.shader" />
     <None Include="Assets\Res\Shader\NewShaders\Standard\TeleportTest.shader" />
@@ -156,7 +154,6 @@
     <None Include="Assets\Res\Shader\NewShaders\Standard\MT_Standard_SSS.shader" />
     <None Include="Assets\Res\Shader\UseBeginGuide\CircleGuide.shader" />
     <None Include="Assets\Res\Shader\MT_Character_Hair.shader" />
-    <None Include="Assets\zihua.shader" />
     <None Include="Assets\Res\Shader\NewShaders\Stylized Water\Shaders\Stylized Water_Mask.shader" />
     <None Include="Assets\Res\Shader\Skybox\Skybox_HandPainted.shader" />
     <None Include="Assets\Res\Shader\maotai_water_01.shader" />
@@ -216,7 +213,7 @@
     <None Include="Assets\Res\Shader\UI_AlphaThreshold.shader" />
     <None Include="Assets\Res\Shader\Toon_OutLine.shader" />
     <None Include="Assets\Res\Shader\Color.shader" />
-    <None Include="Assets\Res\art\scenes\shader\waterf.shader" />
+    <None Include="Assets\Res\art\scenes\shader\waterfall.shader" />
     <None Include="Assets\Res\Shader\PostProcess\PostProcessMobile.shader" />
     <None Include="Assets\Res\Shader\cjjfbh\Cjjfbh_Ground.shader" />
     <None Include="Assets\Res\Shader\Sprite.shader" />

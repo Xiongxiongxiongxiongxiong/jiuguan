@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: 409783fdb9660524f8fd1658d9555247
+guid: 752115e87959f3d42bd037bc11d54573
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: chuanghu
-    2100002: chuanghu_chuanghu_initialShadingGroup
+    2100000: chuanghu_chuanghu_initialShadingGroup
+    2100002: No Name
     2300000: //RootNode
     3300000: //RootNode
     4300000: mt_jz_chuangzhi_01
@@ -50,7 +50,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0

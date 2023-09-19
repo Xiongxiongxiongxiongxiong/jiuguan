@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: 1613a1c1cb004cc40b7cb2ada86cc764
+guid: 68d4d2857b430884f856c6e6bf4b3ba9
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: chuangkuang
-    2100002: chuanghu_chuanghu_initialShadingGroup
+    2100000: chuanghu_chuanghu_initialShadingGroup
+    2100002: ma_chuangzi
     2300000: //RootNode
     3300000: //RootNode
     4300000: mt_jz_chuangkuang_01
@@ -38,17 +38,17 @@ ModelImporter:
     extraExposedTransformPaths: []
     extraUserProperties: []
     clipAnimations: []
-    isReadable: 1
+    isReadable: 0
   meshes:
     lODScreenPercentages: []
     globalScale: 1
-    meshCompression: 0
+    meshCompression: 1
     addColliders: 0
     useSRGBMaterialColor: 1
-    importVisibility: 1
-    importBlendShapes: 1
-    importCameras: 1
-    importLights: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 1
     useFileUnits: 1
@@ -56,7 +56,7 @@ ModelImporter:
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
-    indexFormat: 0
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88

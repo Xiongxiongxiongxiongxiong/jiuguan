@@ -1,19 +1,15 @@
 fileFormatVersion: 2
-guid: e4c2acceb6dba534bbdc038d65aacdf5
+guid: e855417b02f2e6743a24a361dc1542b9
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: louti
-    2100002: 14 - Default
-    2100004: louti_14___Default
-    2100006: 15 - Default
+    2100000: 14 - Default
+    2100002: ma_louti
     2300000: //RootNode
     3300000: //RootNode
     4300000: mt_jz_louti_01
-    4300002: mt_jz_loutidiban_01
-    4300004: "\u5BF9\u8C61239"
   externalObjects: {}
   materials:
     importMaterials: 1
