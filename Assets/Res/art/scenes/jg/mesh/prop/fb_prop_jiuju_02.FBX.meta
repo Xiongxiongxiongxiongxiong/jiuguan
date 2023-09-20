@@ -6,9 +6,11 @@ ModelImporter:
     100000: //RootNode
     400000: //RootNode
     2100000: mt_prop_jiu01_mat
+    2100002: lambert1
     2300000: //RootNode
     3300000: //RootNode
     4300000: mt_prop_jiuju_02
+    4300002: fb_prop_jiuju_02
   externalObjects: {}
   materials:
     importMaterials: 1
