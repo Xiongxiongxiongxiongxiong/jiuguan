@@ -7,6 +7,7 @@ ModelImporter:
     400000: //RootNode
     2100000: mt_prop_zhuozi01_mat
     2100002: lambert1
+    2100004: fb_prop_dengzi01_mat
     2300000: //RootNode
     3300000: //RootNode
     4300000: mt_prop_dengzi01
@@ -51,7 +52,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0

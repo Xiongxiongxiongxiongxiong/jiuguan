@@ -7,9 +7,11 @@ ModelImporter:
     400000: //RootNode
     2100000: langan
     2100002: ma_louti
+    2100004: mt_prop_erloulangan_01_mat
     2300000: //RootNode
     3300000: //RootNode
     4300000: mt_prop_erloulangan_01
+    4300002: fb_prop_erloulangan_01
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -50,7 +52,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0

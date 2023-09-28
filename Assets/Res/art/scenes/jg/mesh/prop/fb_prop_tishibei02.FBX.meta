@@ -4,12 +4,23 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: mt_prop_ditan
+    100004: mt_prop_tishibei01
     400000: //RootNode
+    400002: mt_prop_ditan
+    400004: mt_prop_tishibei01
     2100000: mt_prop_tishibei01_mat
     2100002: mt_prop_tishibei02_mat
+    2100004: mt_prop_ditan
+    2100006: "\u9053\u5177_initialShadingGroup"
     2300000: //RootNode
+    2300002: mt_prop_ditan
+    2300004: mt_prop_tishibei01
     3300000: //RootNode
+    3300002: mt_prop_ditan
+    3300004: mt_prop_tishibei01
     4300000: mt_prop_tishibei01
+    4300002: mt_prop_ditan
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -50,7 +61,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0

@@ -72,7 +72,7 @@
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vComment.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vExtensions.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vPickupItem.cs" />
-    <Compile Include="Assets\Res\art\charRes\npc\50038_taishuai\ani\amin.cs" />
+    <Compile Include="Assets\Res\art\scenes\ShaderAndScipt\jiupai_animtion.cs" />
     <Compile Include="Assets\Res\art\scenes_xf\Brick Materials Vol. 1\Scripts\FlyCamera.cs" />
     <Compile Include="Assets\Res\art\scenes_xf\Horizon Based Ambient Occlusion\Demo\Scripts\HBAOControl.cs" />
     <Compile Include="Assets\Res\art\scenes_xf\Horizon Based Ambient Occlusion\Demo\Scripts\RotateObject.cs" />
@@ -112,7 +112,7 @@
     <None Include="Assets\Res\Shader\NewShaders\Glass\LowLevel\MT_Standard_LowLevel_NormalBlur.shader" />
     <None Include="Assets\Res\Shader\Effect\Rain.shader" />
     <None Include="Assets\Res\Shader\WorkPBSLighting.cginc" />
-    <None Include="Assets\Res\art\scenes\shader\Suntail_Water.shader" />
+    <None Include="Assets\Res\art\scenes\ShaderAndScipt\Suntail_Water.shader" />
     <None Include="Assets\Res\Shader\XF_MetalReflection.shader" />
     <None Include="Assets\Res\Shader\CharacterShader.shader" />
     <None Include="Assets\Res\Shader\NewShaders\Effects\MT_Effect_AnimationFactor.shader" />
@@ -139,7 +139,7 @@
     <None Include="Assets\Res\Shader\MT_VFX_Alpha.shader" />
     <None Include="Assets\Res\Shader\MT_VFX_Alpha_Z.shader" />
     <None Include="Assets\Res\Shader\PostProcess\SMAA.shader" />
-    <None Include="Assets\Res\art\scenes\shader\Vlight.shader" />
+    <None Include="Assets\Res\art\scenes\ShaderAndScipt\Vlight.shader" />
     <None Include="Assets\Res\Shader\CharacterTransparentLow.shader" />
     <None Include="Assets\Res\Shader\UI-Sepia.shader" />
     <None Include="Assets\Res\Shader\NewShaders\Standard\TeleportTest.shader" />
@@ -200,7 +200,6 @@
     <None Include="Assets\Res\Shader\Skybox\Skybox_Cubed.shader" />
     <None Include="Assets\Res\Shader\MT_Standard_Alpha.shader" />
     <None Include="Assets\Res\Shader\OutlineHeader.cginc" />
-    <None Include="Assets\Res\art\scenes\shader\AnimGhost.shader" />
     <None Include="Assets\Res\Shader\PostProcess\ReadPostProcessResult.shader" />
     <None Include="Assets\Res\Shader\NewShaders\Standard\MT_Standard_Teleport.shader" />
     <None Include="Assets\Res\Shader\NewShaders\Effects\MT_Effect_AnimationFactor_1.shader" />
@@ -213,7 +212,7 @@
     <None Include="Assets\Res\Shader\UI_AlphaThreshold.shader" />
     <None Include="Assets\Res\Shader\Toon_OutLine.shader" />
     <None Include="Assets\Res\Shader\Color.shader" />
-    <None Include="Assets\Res\art\scenes\shader\waterfall.shader" />
+    <None Include="Assets\Res\art\scenes\ShaderAndScipt\waterfall.shader" />
     <None Include="Assets\Res\Shader\PostProcess\PostProcessMobile.shader" />
     <None Include="Assets\Res\Shader\cjjfbh\Cjjfbh_Ground.shader" />
     <None Include="Assets\Res\Shader\Sprite.shader" />

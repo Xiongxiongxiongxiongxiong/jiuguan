@@ -24,7 +24,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: mt_prop_jiu01_mat
-    second: {fileID: 2100000, guid: 42bcf7e35c2dce747bead051d2080819, type: 2}
+    second: {fileID: 2100000, guid: 4b983f8f9d92e9249a3a83d654b3c77c, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -64,7 +64,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0

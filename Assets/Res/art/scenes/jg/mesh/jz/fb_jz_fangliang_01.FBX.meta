@@ -7,10 +7,12 @@ ModelImporter:
     400000: //RootNode
     2100000: mutou
     2100002: ma_fangliang
+    2100004: ma_louti
     2300000: //RootNode
     3300000: //RootNode
     4300000: mt_jz_fangliang_01
     4300002: fb_jz_fangliang_01
+    4300004: "\u5BF9\u8C61600"
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -51,7 +53,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0

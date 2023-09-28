@@ -11,13 +11,13 @@ GameObject:
   - component: {fileID: 9011465193084991399}
   - component: {fileID: 9011465193084221319}
   - component: {fileID: 9011465193083221319}
-  - component: {fileID: 3501173829441337948}
+  - component: {fileID: 1537486384824737515}
   m_Layer: 0
-  m_Name: mt_prop_zhuozi02
+  m_Name: fb_prop_zhuozi02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 65
   m_IsActive: 1
 --- !u!4 &9011465193084991399
 Transform:
@@ -26,13 +26,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9011465193085414279}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 10.623, y: 1.4773431, z: 8.888}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 0}
 --- !u!33 &9011465193084221319
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -40,7 +40,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9011465193085414279}
-  m_Mesh: {fileID: 4300000, guid: 09de0c41ada99e14399596f34be900b8, type: 3}
+  m_Mesh: {fileID: 4300002, guid: 09de0c41ada99e14399596f34be900b8, type: 3}
 --- !u!23 &9011465193083221319
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -58,7 +58,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 09de0c41ada99e14399596f34be900b8, type: 3}
+  - {fileID: 2100000, guid: 1c390f64efbb3b241850482bd82be0ff, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -78,7 +78,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3501173829441337948
+--- !u!65 &1537486384824737515
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -89,5 +89,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5999999, y: 1.6000003, z: 0.74046886}
-  m_Center: {x: 0, y: 0, z: 0.37023443}
+  m_Size: {x: 1.5999999, y: 0.7404689, z: 1.6000001}
+  m_Center: {x: 0, y: 0.37023434, z: 0.00000008940697}

@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: fb_prop_tishibei02_mat
+  m_Shader: {fileID: 4800000, guid: 7ed04b6edf140cf4496470dda2ea8c83, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _EmissiveTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MRA:
+        m_Texture: {fileID: 2800000, guid: c48856a42930ff34784d333dd29f2f55, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 39b2636ede71aef49a3528e649122bc2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: d2ace595cbd0a204bac0626f3f0e7370, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AO: 1
+    - _CullMode: 0
+    - _Cutoff: 0.5
+    - _Int: 1.2
+    - _Metallic: 1
+    - _NormalScale: 1
+    - _Roughness: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissiveColor: {r: 0, g: 0, b: 0, a: 0}
+    - _ShakeYParams: {r: 0.1, g: 0.2, b: 0.1, a: 0}
+    - _SwingXParams: {r: 0.1, g: 0.1, b: 0.15, a: 0}
+    - _SwingZParams: {r: 0.15, g: 0.2, b: 0.1, a: 0}

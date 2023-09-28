@@ -16,6 +16,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: mt_prop_jiu01_mat
     second: {fileID: 2100000, guid: 42bcf7e35c2dce747bead051d2080819, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mt_prop_jiu03_mat
+    second: {fileID: 2100000, guid: 53b3f9ea81d7e144d9e4c1788f9b177e, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -55,7 +60,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0

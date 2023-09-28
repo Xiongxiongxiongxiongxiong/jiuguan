@@ -6,6 +6,8 @@ ModelImporter:
     100000: //RootNode
     400000: //RootNode
     2100000: ma_louti
+    2100002: 'Material #0'
+    2100004: fb_prop_zhuzi_01_mat
     2300000: //RootNode
     3300000: //RootNode
     4300000: "\u5BF9\u8C61637"
@@ -50,7 +52,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0

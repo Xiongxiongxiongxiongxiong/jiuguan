@@ -8,10 +8,12 @@ ModelImporter:
     2100000: dizuo
     2100002: zhuzi
     2100004: ma_zhuzi
+    2100006: 'Material #0'
     2300000: //RootNode
     3300000: //RootNode
     4300000: "\u5BF9\u8C61001"
     4300002: mt_prop_dazhuzi_01
+    4300004: fb_prop_dazhuzi_01
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -62,7 +64,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0

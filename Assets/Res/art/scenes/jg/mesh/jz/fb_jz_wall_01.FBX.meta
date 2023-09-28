@@ -12,6 +12,7 @@ ModelImporter:
     2300000: //RootNode
     3300000: //RootNode
     4300000: mt_jz_wall_01
+    4300002: fb_jz_wall_01
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -52,7 +53,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
