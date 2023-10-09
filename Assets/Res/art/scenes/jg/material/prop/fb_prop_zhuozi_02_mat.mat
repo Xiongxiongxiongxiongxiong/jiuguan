@@ -95,7 +95,7 @@ Material:
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _IBL: 0
-    - _Metallic: 0.3
+    - _Metallic: 1
     - _Mode: 0
     - _NormalScale: 1.8
     - _OcclusionStrength: 1

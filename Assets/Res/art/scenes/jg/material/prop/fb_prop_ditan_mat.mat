@@ -48,11 +48,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MRA:
-        m_Texture: {fileID: 2800000, guid: a351e856093c9b3479e6c09099442cfa, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3fa7468dd5c169e45b1e448bb3c18d6b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: af7a88712f82e8b47834393528e80a59, type: 3}
+        m_Texture: {fileID: 2800000, guid: cc20faf4ef384c848a9742e93f23996d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
@@ -64,7 +64,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
-        m_Texture: {fileID: 2800000, guid: 04bae24dca1575640bef52b6e396eac6, type: 3}
+        m_Texture: {fileID: 2800000, guid: 171ba8c372db5824c9cd7b80198f71d5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -87,7 +87,7 @@ Material:
     - _AO: 1
     - _BumpScale: 1
     - _CullMode: 2
-    - _Cutoff: 0.5
+    - _Cutoff: 0.605
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EnvLight_Lerp: 1
@@ -97,7 +97,7 @@ Material:
     - _LightStrength_A: 1
     - _LightStrength_B: 1
     - _MainLightStrength: 1
-    - _Metallic: 1
+    - _Metallic: 0
     - _Mode: 1
     - _NoiseScale: 1
     - _NormalScale: 1

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 325727631218519651}
   - component: {fileID: 325727631221419587}
   - component: {fileID: 325727631220288643}
-  - component: {fileID: 4462314378000262352}
+  - component: {fileID: 2515659412615982717}
   m_Layer: 0
   m_Name: fb_prop_Chair_01
   m_TagString: Untagged
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 325727631218094659}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 10.981, y: 1.659, z: 10.23}
-  m_LocalScale: {x: 0.80000174, y: 0.8000009, z: 0.80000144}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -78,7 +78,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &4462314378000262352
+--- !u!65 &2515659412615982717
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -89,5 +89,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.48827177, y: 1.0890806, z: 0.46864825}
-  m_Center: {x: -0.007450834, y: 0.31857705, z: -0.012757421}
+  m_Size: {x: 0.6715344, y: 1.1260484, z: 0.48587215}
+  m_Center: {x: 0.000000059604645, y: 0.34175795, z: -0.0018831119}

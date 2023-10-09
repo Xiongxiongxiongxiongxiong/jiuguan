@@ -179,6 +179,7 @@
     <None Include="Assets\Res\Shader\XF_SimpleWater.shader" />
     <None Include="Assets\Res\Shader\MT_CustomPBR.shader" />
     <None Include="Assets\Res\Shader\cjjfbh\Cjjfbh_Water.shader" />
+    <None Include="Assets\Test_color.shader" />
     <None Include="Assets\Res\Shader\CharacterShaderLow.shader" />
     <None Include="Assets\Res\Shader\Unlit_Emissive.shader" />
     <None Include="Assets\Res\Shader\NewShaders\Plant\MT_Plant.shader" />
