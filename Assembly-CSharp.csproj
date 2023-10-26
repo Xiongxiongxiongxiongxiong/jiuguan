@@ -72,6 +72,7 @@
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vComment.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vExtensions.cs" />
     <Compile Include="Assets\Invector-3rdPersonController_LITE\Scripts\Generic\Utils\vPickupItem.cs" />
+    <Compile Include="Assets\Player.cs" />
     <Compile Include="Assets\Res\art\scenes\ShaderAndScipt\jiupai_animtion.cs" />
     <Compile Include="Assets\Res\art\scenes_xf\Brick Materials Vol. 1\Scripts\FlyCamera.cs" />
     <Compile Include="Assets\Res\art\scenes_xf\Horizon Based Ambient Occlusion\Demo\Scripts\HBAOControl.cs" />

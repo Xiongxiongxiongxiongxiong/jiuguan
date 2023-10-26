@@ -151,7 +151,9 @@ namespace Invector.vCharacterController
             CheckSlopeLimit();
             ControlJumpBehaviour();
             AirControl();
+            
         }
+        
 
         #region Locomotion
 
